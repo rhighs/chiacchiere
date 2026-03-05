@@ -6,7 +6,7 @@ SKILL_FILE="$1"
 CONF="$HOME/.config/chiacchiere/team.conf"
 
 if [ ! -f "$CONF" ]; then
-  echo "No team config. Run: curl -fsSL https://raw.githubusercontent.com/rhighs/chiacchere/main/install.sh | bash -s -- <repo-url>" >&2
+  echo "No team config. Run: curl -fsSL https://raw.githubusercontent.com/rhighs/chiacchiere/main/install.sh | bash -s -- <repo-url>" >&2
   exit 1
 fi
 source "$CONF"
