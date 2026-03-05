@@ -105,6 +105,12 @@ team-skills/
 - `stow` (`brew install stow` / `apt install stow`)
 - [amarcord](https://github.com/rhighs/amarcord) (for extraction)
 
+## Tests
+
+```bash
+bash test/run_tests.sh
+```
+
 ---
 
 ## Credit
